@@ -35,7 +35,21 @@ that it qualifies for.
 * [Fifth Obfuscated Perl Contest](https://www.foo.be/docs/tpj/issues/vol5_3/tpj0503-0014.html)
 * [Obfuscated C Code](https://www.quora.com/What-is-the-most-obfuscated-C-code-you-have-ever-seen)
 
-### Example
+### Examples
+
+#### Example 1
+
+```bash
+# my_name_rot13.sh
+echo "Gbz Pbyyvre" | tr "A-Za-z" "N-ZA-Mn-za-m"
+```
+
+```
+% my_name_rot13.sh
+Tom Collier
+```
+
+#### Example 2
 
 ```ruby
 # my_name_factory_factory.rb
@@ -134,6 +148,6 @@ main("Tom Collier")
 ```
 
 ```
-ruby my_name_factory_factory.rb
+% ruby my_name_factory_factory.rb
 Tom Collier
 ```
