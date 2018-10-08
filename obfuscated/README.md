@@ -10,11 +10,10 @@ challenge, it must simply print out _your_ name. That's it.
 
 ### Submission Guide
 
-1. To submit your program, place the file in a subdirectory with your email handle (e.g. `<REPO>/obfuscated/collier/my_name_factory_factory.rb`), open a PR against this repository, and tag @tcollier
-1. The program must be submitted by 2018-10-16T06:59:59Z
+1. To submit your program(s), place all files in a subdirectory with your GitHub username (e.g. `<REPO>/obfuscated/tcollier/my_name_factory_factory.rb`), open a PR against this repository that describes how to run the program, and tag @tcollier
+1. The program must be submitted by the end of day on Oct 15, 2018 (`2018-10-16T06:59:59Z`)
 1. You are allowed one submission per programming language
 1. Submissions must successfully print the submitters full name (and nothing else) when run on the test machine (Tom's laptop)
-1. Programs must not take any command line arguments
 
 ### Selecting Winners
 
