@@ -16,6 +16,20 @@ challenge, it must simply print out _your_ name. That's it.
 1. Submissions must successfully print the submitters full name (and nothing else) when run on the test machine (Tom's laptop)
 1. Programs must not take any command line arguments
 
+### Selecting Winners
+
+After the submission deadline, all valid entries will be voted on for various
+categories by a jury of your peers. An entry can win in any number of categories
+that it qualifies for.
+
+#### Categories
+
+* Overall - all valid entries are eligible
+* Short and sweet - the source code must contain no more than 256 characters
+* ASCII artiste - sure it's hard to read, but looking at the source is pure bliss
+
+#### Prizes
+
 ### Prior Art
 
 * [Fifth Obfuscated Perl Contest](https://www.foo.be/docs/tpj/issues/vol5_3/tpj0503-0014.html)
@@ -98,9 +112,9 @@ end
 
 def main(raw_input)
   output_factory = OutputFactory.new
+  separator_factory = SeparatorFactory.new
   first_name_factory_factory = FirstNameFactoryFactory.new
   last_name_factory_factory = LastNameFactoryFactory.new
-  separator_factory = SeparatorFactory.new
   full_name_formatter_factory_factory = FullNameFormatterFactoryFactory.new
 
   output_object = output_factory.build
@@ -108,9 +122,11 @@ def main(raw_input)
   first_name_factory = first_name_factory_factory.build(separator)
   last_name_factory = last_name_factory_factory.build(separator)
   full_name_formatter_factory = full_name_formatter_factory_factory.build(separator)
+
   first_name = first_name_factory.build(raw_input)
   last_name = last_name_factory.build(raw_input)
   full_name = full_name_formatter_factory.build(first_name, last_name)
+
   output_object.print(full_name)
 end
 
