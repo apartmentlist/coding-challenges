@@ -9,7 +9,7 @@ import subprocess
 
 def oh_na_na_whats_my_name():
 	subprocess.call(['nasm', '-f', 'macho', 'my_name.asm']) #assemble
-	subprocess.call(['ld', '-o', 'my_name', 'my_name.o']) # link
+	subprocess.call(['ld', '-macosx_version_min', '10.7.0', '-o', 'my_name', 'my_name.o']) # link
 	my_name_exec = subprocess.Popen('./my_name', shell=True, stdout=subprocess.PIPE) # run and pipe to stdout
 	my_name_output = str(my_name_exec.stdout.read())
 	print my_name_output.strip().decode('hex')
