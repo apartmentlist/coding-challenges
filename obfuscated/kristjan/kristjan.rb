@@ -1,0 +1,124 @@
+#!/usr/bin/env ruby
+
+$krisTJÁN = 1;                                                      $KRISTJÁN =
+$KRISTJÁN.to_s;                                                    $kRiStJáN =
+$krisTJÁN;                                                        def kristjáN
+$KrIsTjÁn=                                                       $krisTJÁN>>
+$krisTJÁN;                                                      end;    def
+kristjÁn;                                                      $KrIsTjÁn^=
+$kRiStJáN;                                                    end;    def
+kristJán;                                                    $kRiStJáN>>=
+$krisTJÁN;                                                  end;   def
+krisTján;                                                  $kRiStJáN<<=
+$krisTJÁN;                                                end;   def
+kriStján;                                                $KRISTJÁN<<
+$KrIsTjÁn                                              .chr('UTF-8')
+end;kristjáN;                                         krisTján
+krisTján;                                            krisTján
+krisTján;                                           kristjÁn
+krisTján;                                          kristjÁn
+krisTján;                                         kristjÁn
+kriStján;                                        kristJán
+kristJán;                                       kristJán
+kristJán;                                      kristjÁn
+kristJán;                                     kristJán
+kristjÁn;                                    kriStján
+kristjÁn;                                   kriStján
+kristjÁn;                                  krisTján
+kristjÁn;                                 krisTján
+kristjÁn;                                kriStján
+kristJán;                               kristjÁn
+kristJán;                              kristjÁn
+krisTján;                             krisTján
+krisTján;                            krisTján
+kristjÁn;                           krisTján
+krisTján;                          kristjÁn
+kriStján;                         kristJán
+kristJán;                        kristJán
+kristJán;                       kristjÁn
+kristJán;                      kristjÁn
+kristJán;                     kristjÁn
+kriStján;                    krisTján
+krisTján;                   kristjÁn
+krisTján;                  kristjÁn
+krisTján;                 krisTján
+kristjÁn;                krisTján
+kristjÁn;               kriStján
+kristJán;              kristjÁn
+kristJán;             kristjÁn
+kristJán;            kristjÁn
+kristJán;           kristJán
+kristJán;          kristjÁn
+kriStján;         kristjÁn
+krisTján;        kristjÁn
+krisTján;       krisTján
+kristjÁn;      krisTján
+kristjÁn;     kriStján
+kristjÁn;    kristJán
+kristjÁn;   kristJán
+kristJán;  kristjÁn
+kriStján; kristJán
+kristjÁn;krisTján
+kristjÁn;krisTján
+kristjÁn;kriStján
+kristJán; kristjÁn
+krisTján;  kristjÁn
+krisTján;   kristjÁn
+krisTján;    kristjÁn
+kriStján;     krisTján
+krisTján;      krisTján
+kristjÁn;       kristJán
+kristJán;        kristJán
+kristJán;         kristjÁn
+kristJán;          kristJán
+kristjÁn;           kristJán
+kristjÁn;            kriStján
+kristjÁn;             krisTján
+kristjÁn;              krisTján
+kristjÁn;               krisTján
+kristjÁn;                krisTján
+krisTján;                 krisTján
+krisTján;                  kristjÁn
+kriStján;                   kristjáN
+kristJán;                    kristJán
+kristjÁn;                     kriStján
+kristjÁn;                      krisTján
+kristjÁn;                       kristJán
+kristJán;                        kristjÁn
+kriStján;                         kristjÁn
+krisTján;                          kristjÁn
+krisTján;                           krisTján
+kristjÁn;                            kristJán
+kristJán;                             kristJán
+kristJán;                              kristjÁn
+kristJán;                               kristJán
+kristjÁn;                                kriStján
+kristjÁn;                                 krisTján
+kristjÁn;                                  krisTján
+kristjÁn;                                   krisTján
+kristjÁn;                                    krisTján
+krisTján;                                     krisTján
+kristjÁn;                                      kriStján
+kristJán;                                       kristJán
+kristJán;                                        kristJán
+kristJán;                                         kristJán
+kristJán;                                          kristjÁn
+kriStján;                                           kristjÁn
+krisTján;                                            kristjÁn
+krisTján;                                             kristjÁn
+kriStján;                                              kristJán
+kristJán;                                               kristjÁn
+kriStján;                                                kriStján
+krisTján;                                                 krisTján
+kristjÁn;                                                  krisTján
+kristjÁn;                                                   krisTján
+kristjÁn;                                                    kriStján
+kristJán;                                                     kristJán
+kristJán;                                                      kristJán
+kristjÁn;                                                       kriStján
+kristjÁn;                                                        krisTján
+krisTján;                                                         krisTján
+kristjÁn;                                                          krisTján
+krisTján;                                                           krisTján
+kristjÁn;                                                            kriStján
+eval                                                                  $KRISTJÁN
