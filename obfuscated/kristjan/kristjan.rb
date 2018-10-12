@@ -79,8 +79,14 @@ kristjÁn;               krisTján
 kristjÁn;                krisTján
 krisTján;                 krisTján
 krisTján;                  kristjÁn
-kriStján;                   kristjáN
-kristJán;                    kristJán
+kriStján;                   kristJán
+kristjÁn;                    kristJán
+kristjÁn;                     kristJán
+kristJán;                      kristjÁn
+kristJán;                       kristjÁn
+kristJán;                        kristjÁn
+krisTján;                         krisTján
+krisTján;                          krisTján
 kristjÁn;                     kriStján
 kristjÁn;                      krisTján
 kristjÁn;                       kristJán
