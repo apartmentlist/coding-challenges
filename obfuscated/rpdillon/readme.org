@@ -1,0 +1,17 @@
+* The Name Game
+
+This entry is written in Emacs Lisp, so it works best if invoked using Emacs.  This can be done interactively by pasting the code into an Emacs buffer and evaluating it, but it's also possible from the command line, as Emacs includes a pretty nice scripting facility after version 22 (the most recent stable version of emacs is 26).
+
+Invocation is trivial:
+
+#+BEGIN_EXAMPLE
+emacs --script obfuscated/rpdillon/just-a-name-game.el
+#+END_EXAMPLE
+
+Versions of Emacs prior to version 22 don't support the =--script= param.  For those, you can use =-batch= combined with the =-l= flag:
+
+#+BEGIN_EXAMPLE
+emacs -batch -l obfuscated/rpdillon/just-a-name-game.el
+#+END_EXAMPLE
+
+It's probably possible to run this using GNU Guile as well (as it also supports ELisp), but I haven't tried that yet, so it's not recommended.
