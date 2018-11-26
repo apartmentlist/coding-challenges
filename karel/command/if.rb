@@ -34,7 +34,7 @@ module Command
       Response.new(
         compass: batch_response.compass,
         location: batch_response.location,
-        operations_count: reponse.operations_count + batch_response.operations_count,
+        operations_count: response.operations_count + batch_response.operations_count,
         tokens: batch_response.tokens
       )
     end

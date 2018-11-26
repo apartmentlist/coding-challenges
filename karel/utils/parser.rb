@@ -57,7 +57,7 @@ module Utils
                 raise SyntaxError, "Line #{line_no}: #{error.message}"
               end
             else
-              raise SyntaxError, "Line #{line_no}: unexpected else statement"
+              raise SyntaxError, "Line #{line_no}: unexpected 'else' statement"
             end
           elsif line.match(/^#{prev_indent}end$/)
             statement = stack.pop
@@ -67,7 +67,7 @@ module Utils
               stack.last.add_statement(statement)
             end
           elsif line =~ /#{curr_indent} /
-            raise SyntaxError, "Line #{line_no}: inconsistent indentation"
+            raise SyntaxError, "Line #{line_no}: invalid indentation"
           else
             raise SyntaxError, "Line #{line_no}: command '#{line}' not recognized"
           end
@@ -77,6 +77,8 @@ module Utils
           raise SyntaxError, "Line #{line_no}: command '#{line}' not recognized"
         end
       end
+
+      raise SyntaxError, 'Unexpected end of input' if stack.length > 1
       stack.pop
     end
   end
