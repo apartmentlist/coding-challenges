@@ -5,8 +5,10 @@ module Command
     end
 
     def execute(compass, location, tokens)
-      result, _, _, _, value = @statement.execute(compass, location, tokens)
-      [!result, compass, location, tokens, value]
+      result, _, _, _, operations_count = @statement.execute(
+        compass, location, tokens
+      )
+      [!result, compass, location, tokens, operations_count]
     end
   end
 end

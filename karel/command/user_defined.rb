@@ -12,12 +12,14 @@ module Command
     end
 
     def execute(compass, location, tokens)
-      value = 0
+      operations_count = 0
       @statements.each do |statement|
-        _, compass, location, tokens, v = statement.execute(compass, location, tokens)
-        value += v
+        _, compass, location, tokens, cnt = statement.execute(
+          compass, location, tokens
+        )
+        operations_count += cnt
       end
-      [nil, compass, location, tokens, value]
+      [nil, compass, location, tokens, operations_count]
     end
   end
 end

@@ -10,16 +10,22 @@ module Command
     end
 
     def execute(compass, location, tokens)
-      result, _, _, _, value = @condition_statement.execute(compass, location, tokens)
+      result, _, _, _, operations_count = @condition_statement.execute(
+        compass, location, tokens
+      )
       while result
         @statements.each do |statement|
-          _, compass, location, tokens, v = statement.execute(compass, location, tokens)
-          value += v
+          _, compass, location, tokens, cnt = statement.execute(
+            compass, location, tokens
+          )
+          operations_count += cnt
         end
-        result, _, _, _, v = @condition_statement.execute(compass, location, tokens)
-        value += v
+        result, _, _, _, cnt = @condition_statement.execute(
+          compass, location, tokens
+        )
+        operations_count += cnt
       end
-      [nil, compass, location, tokens, value]
+      [nil, compass, location, tokens, operations_count]
     end
   end
 end

@@ -25,7 +25,7 @@ def main(args)
     exit(1)
   else
     program = Utils::Parser.parse(args.first)
-    _, compass, location, tokens, value = program.execute(
+    _, compass, location, tokens, operations_count = program.execute(
       Model::Compass.new(:up),
       Model::Location.new(0, 0),
       Model::TokenContainer.new
@@ -34,7 +34,7 @@ def main(args)
       location: (#{location.x}, #{location.y})
       direction: #{compass.direction}
       tokens: #{tokens.as_json}
-      operations: #{value}
+      operations: #{operations_count}
     STATE
   end
 rescue SyntaxError => error
