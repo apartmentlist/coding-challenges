@@ -1,7 +1,13 @@
+require_relative 'response'
+
 module Command
   class Turn
     def execute(compass, location, tokens)
-      [nil, compass.turn, location, tokens, 1]
+      Response.new(
+        compass: compass.turn,
+        location: location,
+        tokens: tokens
+      )
     end
   end
 end

@@ -16,11 +16,13 @@ module Model
       else
         @tokens[location] -= 1
       end
+      return self
     end
 
     def put(location)
       @tokens[location] ||= 0
       @tokens[location] += 1
+      return self
     end
 
     def as_json

@@ -1,3 +1,5 @@
+require_relative 'response'
+
 module Command
   class Not
     def initialize(statement)
@@ -5,10 +7,14 @@ module Command
     end
 
     def execute(compass, location, tokens)
-      result, _, _, _, operations_count = @statement.execute(
-        compass, location, tokens
+      response = @statement.execute(compass, location, tokens)
+      Response.new(
+        compass: response.compass,
+        location: response.location,
+        operations_count: response.operations_count,
+        return_value: !response.return_value,
+        tokens: response.tokens
       )
-      [!result, compass, location, tokens, operations_count]
     end
   end
 end

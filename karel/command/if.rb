@@ -1,3 +1,6 @@
+require_relative 'batch'
+require_relative 'response'
+
 module Command
   class If
     def initialize(condition_statement)
@@ -21,15 +24,19 @@ module Command
     end
 
     def execute(compass, location, tokens)
-      result, _, _, _, operations_count = @condition_statement.execute(
-        compass, location, tokens
+      response = @condition_statement.execute(compass, location, tokens)
+      operations_count = response.operations_count
+      statements = response.return_value ? @body_statements : @else_statements
+      batch_response = Batch.new(statements).execute(
+        response.compass, response.location, response.tokens
       )
-      statements = result ? @body_statements : @else_statements
-      statements.each do |statement|
-        _, compass, location, tokens, cnt = statement.execute(compass, location, tokens)
-        operations_count += cnt
-      end
-      [nil, compass, location, tokens, operations_count]
+
+      Response.new(
+        compass: batch_response.compass,
+        location: batch_response.location,
+        operations_count: reponse.operations_count + batch_response.operations_count,
+        tokens: batch_response.tokens
+      )
     end
   end
 end

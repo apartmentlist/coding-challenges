@@ -1,3 +1,5 @@
+require_relative 'response'
+
 module Command
   class While
     def initialize(condition_statement)
@@ -10,22 +12,26 @@ module Command
     end
 
     def execute(compass, location, tokens)
-      result, _, _, _, operations_count = @condition_statement.execute(
-        compass, location, tokens
-      )
-      while result
-        @statements.each do |statement|
-          _, compass, location, tokens, cnt = statement.execute(
-            compass, location, tokens
-          )
-          operations_count += cnt
-        end
-        result, _, _, _, cnt = @condition_statement.execute(
-          compass, location, tokens
+      response = @condition_statement.execute(compass, location, tokens)
+      operations_count = response.operations_count
+      while response.return_value
+        response = Batch.new(@statements).execute(
+          response.compass,
+          response.location,
+          response.tokens
         )
-        operations_count += cnt
+        operations_count += response.operations_count
+        response = @condition_statement.execute(
+          response.compass, response.location, response.tokens
+        )
+        operations_count += response.operations_count
       end
-      [nil, compass, location, tokens, operations_count]
+      Response.new(
+        compass: response.compass,
+        location: response.location,
+        tokens: response.tokens,
+        operations_count: operations_count
+      )
     end
   end
 end

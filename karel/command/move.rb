@@ -1,8 +1,14 @@
+require_relative 'response'
+
 module Command
   class Move
     def execute(compass, location, tokens)
-      new_location = compass.translate_location(location)
-      [nil, compass, new_location, tokens, 1]
+      new_location =
+      Response.new(
+        compass: compass,
+        location: compass.translate_location(location),
+        tokens: tokens
+      )
     end
   end
 end
