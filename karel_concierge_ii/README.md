@@ -1,14 +1,14 @@
 ## Karel Concierge - Part II
 
 In [part I](../karel_concierge/) of the Karel Concierge challenge you wrote a
-program takes a renter to visit a property she added to her Short List. Well, her
+program that takes a renter to visit a property she added to her Short List. Well, her
 feedback was extremely positive and we've decided to double down on the Karel
 Concierge. The next step is to support visiting _every_ positive interest on a
 renter's Short List.
 
 For the sake of this challenge, use
 [Karel](https://github.com/apartmentlist/karel-interpreter) to visit all
-listings the renter has on her Short List. The locations (in no particular order)
+listings the renter has on her Short List. The locations (listed in no particular order)
 are
 
 * (12, -5)
@@ -31,7 +31,7 @@ tokens: [{"location"=>"(-20, -20)", "count"=>1},{"location"=>"(-17, 21)", "count
 operations: NNN
 ```
 
-Where the `tokens: ...` line matches this output exactly. The final location and
+Where the `tokens: ...` line matches this output. The final location and
 direction are unimportant.
 
 ### Submission Guide
@@ -44,4 +44,5 @@ be eligible for Hack Week Tokens.
 A submission that correctly leaves the renter at the property (and nowhere else) will
 earn you five tokens. The first person to submit a correct solution will receive an
 additional five tokens. The most efficient correct solution (i.e. the solution consuming
-the fewest number of operations) will receive an additional five tokens.
+the fewest number of operations) will receive an additional five tokens (if there is
+a tie for the most efficient program, only the first submitted entry will win the tokens).
