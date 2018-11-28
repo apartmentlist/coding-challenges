@@ -26,8 +26,7 @@ operations: NNN
 ```
 
 Where the `tokens: ...` line matches this output exactly. The final location and
-direction are unimportant. The total number of operations will be used to award Hack
-Week Tokens to the most efficient program.
+direction are unimportant.
 
 ### Submission Guide
 
