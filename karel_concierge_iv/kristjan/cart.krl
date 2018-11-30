@@ -15,8 +15,8 @@ def move_pile
     put
     turn_around
     move
-    turn_around
     pick
+    turn_around
   end
 end
 
@@ -29,8 +29,13 @@ def breadcrumb
   move
 end
 
+def clean
+  while token?
+    pick
+  end
+end
+
 def move_until_token
-  move
   while !token?
     move
   end
@@ -38,33 +43,52 @@ end
 
 def move_pile_to_token
   while token?
+    move
     move_until_token
     put
     turn_around
+    move
     move_until_token
     pick
     turn_around
   end
+  move
   move_until_token
 end
 
-# Find Y pile
+# Mark X Axis
 turn_left
 move
-turn_left
+move
+move
+put
+
+# Find Y pile
+turn_around
+move
+move
+turn_right
 move
 turn_around
 
 breadcrumb
+clean
 turn_left
 move
 put # Mark location
+
+## Back to X pile
+move
 turn_left
-move_until_token
+move_until_token # X Axis
+turn_left
+move
+turn_right
+move
 turn_around
 
 move_pile_to_token
-pick # Eat marker
+pick
 turn_right
 breadcrumb
 move
