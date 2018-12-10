@@ -1,0 +1,509 @@
+def brute_strength
+  if token?
+    pick
+  end
+  move
+end
+
+def turn_right
+  turn_left
+  turn_left
+  turn_left
+end
+
+def strong_arm_a_couple_rows
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  turn_right
+  move
+  turn_right
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  brute_strength
+  turn_left
+  move
+  turn_left
+end
+
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+turn_left
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+move
+turn_left
+turn_left
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
+strong_arm_a_couple_rows
