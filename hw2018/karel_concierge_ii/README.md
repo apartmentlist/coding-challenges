@@ -37,7 +37,7 @@ direction are unimportant.
 ### Submission Guide
 
 To submit your program, fork this repo and place your Karel program file in a
-subdirectory of the form with your GitHub username (e.g. `<FORKED REPO>/karel_concierge_ii/tcollier/renter_driver.rb`), open a PR against this repository and tag @tcollier. Submissions must be received before Thursday,
+subdirectory of the form with your GitHub username (e.g. `<FORKED REPO>/hw2018/karel_concierge_ii/tcollier/renter_driver.rb`), open a PR against this repository and tag @tcollier. Submissions must be received before Thursday,
 November 29 at 11:59:59 PM PST to be eligible. Only one submission per person will
 be eligible for Hack Week Tokens.
 
