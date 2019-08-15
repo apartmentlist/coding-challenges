@@ -31,7 +31,8 @@ Super Delivery, a limited capacity transportation device capable of delivering a
 in the US in under 24 hours. While the capacity of this device is considerably smaller
 than that of a typical household, renters provide an inventory of their possessions with
 corresponding day zero values (D0Va)--the relative
-utility the renter gets from that possession on the first day in their new home. Assuming
+utility the renter gets from that possession on the first day in their new home--so that
+we can optimize its contents. Assuming
 we deliver sufficient D0Va in the Super Delivery device, R&D believes renters will not
 mind waiting for their remaining belongings.
 
