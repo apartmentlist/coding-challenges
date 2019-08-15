@@ -3,7 +3,7 @@
 ## Simple Logistics and Overland Transportation Handlers
 
 The year is 2021 and Apartment List is the dominant platform to help renters find
-homes. However, always looking to improve renter's lives, CEO Jon Kobs refuses to be
+homes; however, always looking to improve renter's lives, CEO John Kobs refuses to be
 satisfied and wants to do more. Last quarter he called for a board retreat to update
 the company's strategic vision, which he and COO Chris Erickson had scrawled on a napkin
 in 2010 as the foundation for starting Apartment List:
@@ -14,7 +14,7 @@ in 2010 as the foundation for starting Apartment List:
 
 After several intense, day-long sessions the board agreed that step 2 must be to help
 renters _get_ to their new homes. As such, Kobs was authorized to acquire a moving and
-logistics company to incorporate in the Apartment List platform. Last month Kobs
+logistics company to incorporate into the Apartment List platform. Last month Kobs
 negotiated a sweetheart deal to acquire Simple Logistics and Overland Transportation
 Handlers (SLOTH) Movers.
 
@@ -38,7 +38,7 @@ mind waiting for their remaining belongings.
 
 ### Submission
 
-Kobs has tasked any and all comers to submit a program that will determine which
+Kobs has tasked all comers to submit a program that will determine which
 items will go in the Super Delivery device. The developer that yields a valid
 set of items (i.e. the combined weight of the selected items is less than or equal
 to the device capacity) with the maximum D0Va will get promoted to CTO and receive
@@ -49,8 +49,8 @@ a huge raise!
 Provide a command line program that takes in
 
 * Name of the file containing the bill of material
-* Capacity of the Super Delivery transportation device
-* A maximum execution time of the program in seconds
+* Capacity of the Super Delivery transportation device (an integer)
+* A maximum execution time of the program in seconds (an integer)
 
 For example
 
@@ -72,7 +72,7 @@ The format for the inventory file is
 <item N>,<D0Va of item N>,<weight of item N>
 ```
 
-For example
+D0Va and weights are always integers. An example inventory files could look like
 
 ```
 Couch,20,70
@@ -90,10 +90,10 @@ Use this [bigger example](inventory_50.csv) to test your program.
 ### Program output
 
 The program should output the names of the items that will be loaded in the Super Delivery device.
-Each item should be printed on its own line.
-Order does not matter.
+Each item should be printed on its own line; order does not matter.
 If any line printed does not match the name of an item exactly, then the submission will
 be considered invalid.
+Any item should be included no more than once.
 
 Based on the example in the previous section, one possible valid output is
 
