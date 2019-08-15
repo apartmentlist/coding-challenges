@@ -84,6 +84,8 @@ Emergency Kit,25,10
 Television,45,150
 ```
 
+Use this [bigger example](inventory_50.csv) to test your program.
+
 ### Program output
 
 The program should output the names of the items that will be loaded in the Super Delivery device.
