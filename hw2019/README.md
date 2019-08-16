@@ -118,7 +118,8 @@ subdirectory of the form with your GitHub username
 open a PR against this repository and tag @tcollier.
 Submissions must be received before Thursday, August 23 at 02:00:00 PM PST to be eligible.
 
-During the week, I will periodically run all submitted programs against hidden test inventories
-and report on the rankings. After the submission deadline, I will run a final round with all
+During the week, I will periodically run all currently submitted programs against hidden test
+inventories and report on the rankings. Participants may add to their PR throughout the week.
+After the submission deadline, I will run a final round with all
 submissions, this is the only round that will be used to determine who becomes CTO and gets
 that fat raise!
