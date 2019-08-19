@@ -116,7 +116,7 @@ To submit your program, fork this repo and place your submission in a
 subdirectory of the form with your GitHub username
 (e.g. `<FORKED REPO>/hw2019/tcollier/my_solution.sh`),
 open a PR against this repository and tag @tcollier.
-Submissions must be received before Thursday, August 23 at 02:00:00 PM PST to be eligible.
+Submissions must be received before Thursday, August 23 at 11:59:59 PM PST to be eligible.
 
 During the week, I will periodically run all currently submitted programs against hidden test
 inventories and report on the rankings. Participants may add to their PR throughout the week.
