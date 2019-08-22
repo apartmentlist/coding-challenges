@@ -18,10 +18,12 @@
 #            2 | At least one line of output was not a valid item name
 #            3 | An item was chosen multiple times
 #            4 | The script did not complete within the specified time limit
+#            5 | The script exited with non-zero status
 #
 
 require 'set'
 
+SUCCESSS_STATUS = 0
 # Status code of the `timeout` Unix command when the command it terminates the command
 TIMEOUT_STATUS = 124
 
@@ -43,6 +45,9 @@ response = %x[timeout #{timeout} #{script} #{file_name} #{capacity} #{timeout}]
 if $?.exitstatus == TIMEOUT_STATUS
   $stderr.puts "Timeout! Script ran for longer than #{timeout} second(s)"
   exit(4)
+elsif $?.exitstatus != SUCCESSS_STATUS
+  # Error from response is already printed out
+  exit(5)
 end
 
 selected_items = response.split("\n")
