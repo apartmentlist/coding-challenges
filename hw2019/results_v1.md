@@ -11,9 +11,9 @@ type: `m3.2xlarge`)
 
 ### NYC Studio
 
-Inventory File: [inventory_studio.csv](inventory_studio.csv)
-Container Capcity: 8297
-Time Limit: 60 seconds
+* Inventory File: [inventory_studio.csv](inventory_studio.csv)
+* Container Capcity: 8297
+* Time Limit: 60 seconds
 
 | Place | Submitter | Total D0Va |
 |:----- |:--------- |:---------- |
@@ -25,9 +25,9 @@ Time Limit: 60 seconds
 
 ### Suburban House
 
-Inventory File: [inventory_house.csv](inventory_house.csv)
-Container Capcity: 76068
-Time Limit: 60 seconds
+* Inventory File: [inventory_house.csv](inventory_house.csv)
+* Container Capcity: 76068
+* Time Limit: 60 seconds
 
 | Place | Submitter | Total D0Va |
 |:----- |:--------- |:---------- |
@@ -41,9 +41,9 @@ Time Limit: 60 seconds
 
 ### Rural McMansion
 
-Inventory File: [inventory_mansion.csv](inventory_mansion.csv)
-Container Capcity: 389417
-Time Limit: 60 seconds
+* Inventory File: [inventory_mansion.csv](inventory_mansion.csv)
+* Container Capcity: 389417
+* Time Limit: 60 seconds
 
 | Place | Submitter | Total D0Va |
 |:----- |:--------- |:---------- |
