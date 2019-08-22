@@ -1,5 +1,12 @@
 # Hack Week 2019 Coding Challenge
 
+## Preliminary Results (updated 2019-08-22)
+
+Several competitors have hit the ground running and I've pitted them head to head with
+three test inventory files. [See the results here](results_v1.md). I've also included
+a [testing harness](harness.rb) that competitors can use to enforce the timeout,
+validate output, and automatically calculate total D0Va.
+
 ## Simple Logistics and Overland Transportation Handlers
 
 The year is 2021 and Apartment List is the dominant platform to help renters find
